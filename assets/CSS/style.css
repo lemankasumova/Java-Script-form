@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800&family=Poiret+One&display=swap');
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+    list-style:none;
+}
+body {
+    font-family: 'Poiret One', cursive;
+}
+
+/* #image {
+    width: 300px;
+    height: 300px;
+} */
+
+/* #image {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.form_section {
+    width: 40%;
+    height: 100vh;
+    background-color: rgb(185, 185, 205);
+    float: right;
+}
+
+.form_section h1 {
+    text-align: center;
+    border-bottom: 1px solid rgb(90, 90, 120);
+    padding: 15px 0 15px 0;
+}
+#div_width {
+    padding: 10px 60px 10px 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+}
+#bg_color {
+    padding: 10px 60px 10px 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+}
+#measure_w {
+    padding: 10px 0px 10px 0px;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+}
+#measure_h {
+    padding: 10px 0px 10px 0px;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+}
+.btn {
+    padding: 10px 15px 10px 15px;
+    border: 0;
+    outline: 0;
+    margin-left: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+#div_height {
+    padding: 10px 60px 10px 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+}
+.demo {
+    transition: 0.4s;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    position: fixed;
+}
+#margin_div {
+    padding: 10px 60px 10px 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+}
+#margin_type {
+    padding: 10px 0px 10px 0px;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+}
+#padding_div {
+    padding: 10px 60px 10px 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+}
+#padding_m {
+    padding: 10px 0px 10px 0px;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+}
+#border_style {
+    padding: 10px 60px 10px 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+}
+#border_s, #border_m, #text_sz {
+    padding: 10px 0px 10px 0px;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+}
+#border_color, #border_size, #div_text,#text_size {
+    padding: 10px 60px 10px 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+}
